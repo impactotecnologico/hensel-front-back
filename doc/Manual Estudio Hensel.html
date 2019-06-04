@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" type="image/jpg" href="http://estudiohenseldelavega.es/wp-content/uploads/2016/11/logo.jpg">
+<meta charset="utf-8">
+<title>Estudio Hensel de la Vega</title>
+
+<xmp theme="simplex" style="display:none;">
+#Manual de uso para Estudio Hensel de la Vega.
+
+A continuación se expone un tutorial guiado a través de las distintas opciones de personalización de su sitio web junto a cada sección, módulo y servicio asociado al mismo.
+
+## Administrador de migración
+
+A continuación, se indican los pasos a seguir para migrar propiedades desde fotocasa hacia el sitio web de Estudio de la Vega a través del cliente administrativo desarrollado para tal fin:
+
+Paso 1:
+Ingresar al cliente administrativo a través de:
+http://estudiohenseldelavega.es/admin/
+
+Paso 2:
+Una vez en el admin, hacer click al botón “importar”:
+
+Paso 3:
+Esperar a que el admin termine el proceso de migración (puede tardar varios minutos), se le indicará a través de la barra de progreso y un mensaje informativo al final de la migración.
+
+Paso 4 (recomendado):
+Una vez haya terminado la migración de propiedades, es recomendable borrar la caché del sitio web de Estudio Hensel para poder visualizar los cambios correctamente, para lograrlo, debe ingresar a:
+http://estudiohenseldelavega.es/wp-admin/ e iniciar sesión con las credenciales del usuario de WordPress
+Una vez en el admin de WordPress, sitúe el cursor en la barra superior, específicamente en la opción “rendimiento” hasta que vea un menú emergente:
+
+Al desplegarse el menú, dar click a la opción “purge all caches” y esperar unos segundos a que el proceso termine.
+
+Ahora podrá ver las propiedades migradas con todos sus detalles en el sitio web de Estudio Hensel de la Vega.
+
+Nota: las propiedades migradas están listadas como propiedades dentro del administrador de WordPress, si se requiere editar el detalle de alguna, puede ingresar al listado a través del menú “properties” del panel lateral izquierdo.
+
+Para más información consultar la [documentacion](https://docs.google.com/document/d/1llC0gpzxqvCWexR4QdF-5Z8Xz_O2qGz0JIyXUSc6fmA/edit)
+
+##Sitio web 
+
+Para que su sitio web pueda ser editado y pueda agregar eventos, cambiar imágenes y textos fácilmente, su construcción fue realizada con el administrador de contenidos Wordpress. Para poder editarlo usted deberá acceder al panel de administración a través del siguiente enlace: [http://estudiohenseldelavega.es/wp-admin/](http://estudiohenseldelavega.es/wp-admin/) Una vez allí, le pedirá que ingrese un nombre de usuario y contraseña a través de la siguiente pantalla. **"Los datos para ingresar son proporcionados a través del correo"** 
+
+<center>
+    ![Login](img/login-EH.png)
+</center>
+
+Una vez ingresado, encontrará la siguiente vista:
+
+<center>
+    ![Inicio de Wordpress](img/wp-home-eh.png)
+</center>
+
+Ese es su panel de control y desde allí podrá modificar cualquier aspecto del sitio web que desee a través de las opciones de menú en la barra lateral izquierda del panel.
+
+- - -
+
+#1. Página principal Home
+
+##Colocar Imágenes en el Banner
+
+Para agregar o quitar una imagen del banner, se debe dirigir al panel de control de wordpress en la columna izquierda, se selecciona la opción slides y desde ahí se puede agregar nuevas imágenes al banner, así como se muestra en la imágen:
+
+<center>
+    ![slides](img/wp-slides-eh-1.png)
+</center>
+
+Ahora para agregar la nueva imagén se debe seleccionar el botón **Add New** que se encuentra al lado del título Slide. Cuando se ingresa, se muestra la siguiente ventana así como la imagen de abajo. 
+
+Como se puede ver en la imagen trendrá 3 opciones:
+
++ Introducir el título  (opcional)
++ Sub text "Introducir la descripción" (opcional)
++ La imagen que se quiere mostrar en el banner, tiene que tener un tamaño de **1920x700** (importante el tamaño)
++ Asignar imagen destacada (importante colocar la imagen, es la que se muestra en el banner)
++ Publicar (al momento de publicar se mostrará la imagen en la página del Home)
+
+<center>
+    ![slides 2](img/new-slide-eh.png)
+</center>
+
+##Colocar número telefónico al lado del menú
+
+Se debe dirigir al panel de control en la columna izquierda y ahí seleccionar la opción **Apariencia -> Theme Options -> Header** después ir hasta el final y buscar el título **Header Phone Number**, aquí debemos colocar los números de teléfono que deseamos mostrar. En el campo de texto solo se pueden colocar 2 números de teléfono y separados por " - ", también se puede colocar un solo número sin el " - "
+
+Ejemplo:
+
++ Con un solo número: 111 11 11 11
++ Con 2 números: 111 11 11 11 - 222 22 22 22
+
+Así como se muestra en la imagen:
+
+<center>
+    ![telefono](img/phone-eh.png)
+</center>
+
+##Llenar los combos en la sección "Consigue Tu Casa"
+
+En la sección Consigue Tu Casa, se deben llenar los combos en las diferente opciones del panel de control de worpress. Ahora se explicará por parte dónde se encuentran cada combo a llenar.
+
+Los primeros combos a localizar en panel de control son: 
+
++ Localización (Property Types)
++ Estado de propiedad (Property Status)
++ Tipo de propiedad (Property Cities)
+
+Estos 3 combos se encuentran en un mismo sitio, debe dirigirse a la columna izquierda y seleccionar la opción **Properties**, donde se mostrarán las opciones que deben utilizar (**Property Types**, **Property Cities** y **Property Status**)
+
+La imagen que se muestra a continuación tiene las mismas opciones para cada combo, en los que podrá registrar nuevos atributos. Solo se debe agregar el nombre; en este caso es la ciudad, después se selecciona el botón **Add New Property City** una vez se registra se muestra automáticamente el nombre en el combo de la página del Home
+
+<center>
+    ![localización](img/ciudades-eh.png)
+</center>
+
+Los siguientes combos a localizar en el panel de control son:
+
++ Precio Min
++ Precio Max
+
+Estos 2 combos se encuentran ubicados en el mismo sitio, en ellos podrá configurar todas las opciones necesarias con el formato de los precios. Se debe dirigir a la columna izquierda y seleccionar la opción **Apariencia -> Theme Options -> Price Format**. Ahora se muestra la imagen con las opciones a configurar.
+
+<center>
+    ![precio](img/price-format-eh.png)
+</center>
+
+##Ajuste de contenido "Estamos ofreciendo las mejores ofertas inmobiliarias"
+
+Para poder ajustar el contenido que se muestra en la página Home, debe dirigirse al panel de control y seleccionar la siguiente opción **Apariencia -> Theme Options -> Home Others**, sólo se deben ajustar las siguientes opciones:
+
++ Slogan Title (Título)
++ Slogan Text (Descripción)
+
+<center>
+    ![contenido](img/home-others-eh.png)
+</center>
+
+- - -
+
+#2. Registros de Propiedades
+
+Para realizar los registros de casas o locales debe dirigirse al panel de control y seleccionar la opción de **Properties -> Properties** al momento de ingresar se muestra una lista de todos los registros que hay y por columna se muestra lo siguiente:
+
++ Título de la propiedad
++ Imagen
++ Ciudad
++ Tipo de propiedad
++ Estado de la Propiedad
++ Precio
+
+Ahora para registrar una nueva propiedad se debe seleccionar **Add New** que se encuentra a lado del título, así como se muestra en la imagen:
+
+<center>
+    ![propiedad](img/propiedades-1-eh.png)
+</center>
+
+Después de haber ingresado a la ventana correspondiente donde se registrará una nueva propiedad, ahí se explica por pasos cuales son las opciones necesarias para el registro.
+
+###Paso 1
+
++ Registrar el título o el nombre del local
++ Registrar descripción
++ Registrar la Ubicación de la propiedad
+
+###Paso 2
+
+**Basic Information**
+
+En esta sección se tienen que usar las siguientes opciones que sirven como información básica de la propiedad:
+
++ **Sale or Rent Price ( Only digits )** (Precio de venta o alquiler (sólo dígitos), solo se debe colocar la cantidad y decimales ) 
++ **Price Postfix** (Se debe colocar la descripción de las cuotas)
++ **Area Size ( Only digits )** (Tamaño de área (sólo dígitos))
++ **Size Postfix** (Formato de tamaño ejemplo m²)
++ **Bedrooms** (Cantidad de dormitorios)
++ **Bathrooms** (Cantidad de Baños)
++ **Garages** (Cuantos vehículos puede ingresar en el parking)
++ **Property Map** (Ubicación de la propiedad. Para esta opción es recomendable usar [Google Maps](https://www.google.co.ve/maps/), ya que es más fácil ubicar las direcciones, luego copie y pegue la dirección encontrada como se muestra en la imagen)
+
+<center>
+    ![propiedad-4](img/form-1-eh.png)
+</center>
+
+**Gallery Images**
+
+Se encarga de agregar las imágenes de la propiedad y tiene un máximo de 48 imágenes.
+
+Para agregar imágenes de la propiedad se debe seleccionar el botón **Añadir medios**, después se muestra una ventana donde podrán cargar las nuevas imágenes o seleccionar las imágenes existente que se encuentre en la **Biblioteca de multimedia**.
+
+El tamaño de cada imagen de la propiedad debe ser de **1200x1000** o **700x550**, luego de darle click al botón **Publicar** el sistema wordpress se encarga de ajustar los tamaños necesario de cada imagen a mostrar.
+
+<center>
+    ![propiedad-5](img/galeria-eh.png)
+</center>
+
+###Paso 3
+
+Aquí agregaremos las etiquetas necesarias para poder hacer la búsqueda desde la opción **Consigue Tu Casa** con los combos, para eso se debe seleccionar las opciones necesarias que tenga la propiedad:
+
++ **Property Types** (Localización)
++ **Property Status** (Estado de propiedad)
++ **Property Cities** (Tipo de propiedad)
+
+<center>
+    ![propiedad-6](img/estatus-eh.png)
+</center>
+
+Después de tener todas las opciones llenas con sus valores correspondiente, se selecciona el botón **Publicar** para guardar el nuevo registro de la propiedad.
+
+- - -
+
+#3. Creación o Actualización de Página
+
+Las páginas son registradas a través del panel de control y debe seleccionar la opción **Páginas -> Todas las páginas** al momento de ingresar en la vista mostrara una lista con todas las paginas creadas pero hay algunas que no tienen que ver con la secciones que se muestran en el menú, pero son necesarias para la plantilla por eso no son eliminadas, las únicas páginas que se pueden actualizar son las siguientes:
+
++ Quienes somos
++ Servicios Financieros 
++ Valoraciones Gratuitas
++ Certificación energética
++ Servicios de reformas
++ Tramitación de herencias
++ Seguros de protección de pagos
++ Departamento Jurídico
++ Contáctenos
+
+Para registrar una nueva página nueva se debe seleccionar el botón **Añadir nueva** como se muestra en la imagen y se encuentra a lado del título  
+
+<center>
+    ![pagina](img/paginas-eh.png)
+</center>
+
+Después de ingresar a la vista, se puede registrar la página llenando las siguientes opciones:
+
++ Introduce el título
++ Introduce la descripción
+
+En la opción **Top Banner Area Settings** se puede colocar un título referente a la página mas una imagen para que aparezca en el banner así como se muestra en las imágenes 
+
+La opciones que se pueden usar son: 
+
++ Banner Title (Introducir el título)
++ Banner Sub Title (Introduce la descripción)
++ Banner Image (Introduce una imagen, el tamaño que debe tener la imagen es de **2000×266**)
+
+Luego que tenga todas las opciones configuradas le dan al botón **Publicar** para que puedan guardar la Página nueva.
+
+<center>
+    ![pagina-2](img/page-banner-eh.png)
+</center>
+
+- - -
+
+#4. Sección Noticias
+
+En la sección de Noticias, ya está configurada automáticamente solo se debe escribir el contenido con cada evento que se desee publicar. Para agregar el contenido se debe ir al panel de control y seleccionar la opción de **Entradas -> Todas las entradas**, cuando ingrese puede ver una lista de todas las noticias que estén publicadas, en cual se puede registrar y actualizar las noticias. Ahora para registrar una nueva noticias se debe seleccionar el botón **Añadir nueva**
+
+<center>
+    ![noticias](img/entradas-eh.png)
+</center>
+
+En esta parte del registro de las noticias solo se debe llenar 3 opciones que son:
+
++ Introduce el título
++ Introduce la descripción
++ Asignar imagen destacada (Opcional)
+
+Después de tener todas las opciones llenas, se selecciona el botón **Publicar** para registrar la nueva noticia.
+
+- - -
+
+#5. Sección de Preguntas y Repuestas
+
+## Preguntas frecuentes
+
+Para agregar nuevas preguntas con sus repuestas a la Página de Preguntas frecuentes, se debe ir al menú del panel de control y seleccionar la opción de **FAQ -> All FAQ´s** así como se muestra en la imagen
+
+<center>
+    ![preguntas](img/faq-eh.png)
+</center>
+
+Ahora para añadir una nueva pregunta se selecciona le botón **Add New**, aquí se debe llenar tres opciones para generar la pregunta que son:
+
++ Titulo de la pregunta
++ Repuesta de la pregunta
++ Categoría de la pregunta (Preguntas frecuentes)
+
+Después que este llena las opciones así como se muestra en la imagen, se selecciona el botón **Publicar** para registrar la nueva pregunta
+
+<center>
+    ![preguntas-2](img/faq-2-eh.png)
+</center>
+
+## Preguntar
+
+La página de Preguntar se encargará de interactuar con el usuario o cliente que tiene alguna duda y quiere realizar una pregunta especifica.
+
+El usuario realiza la pregunta desde la página así como lo muestra en la imagen, en la cual debe seleccionar el botón **Hacer Pregunta** y luego se muestra un formulario que debe llenar el usuario
+
+<center>
+    ![preguntas-3](img/preguntar-1-eh.png)
+</center>
+
+Ahora para que el administrador pueda responder la pregunta a ese usuario se debe dirigir al panel de control del menú y seleccionar la opcion de **Questions -> Questions** así como se muestra en la imagen, desde esa sección podrá ver todas las preguntas generadas por los usuarios que tenga una duda especifica y que no se encuentre en la página de preguntas frecuentes
+
+<center>
+    ![preguntas-5](img/preguntas-2-eh.png)
+</center>
+
+Luego selecciona la pregunta que desea responder, se busca la opción de comentarios y se selecciona el botón de **Añadir Comentario** se realiza la repuesta de la pregunta y se publica
+
+<center>
+    ![preguntas-6](img/preguntas-3-eh.png)
+</center>
+
+- - -
+
+#6. Agregar y quitar página del menu principal
+
+Para agregar página al menú debe ir al panel de control y seleccionar **Apariencia->Menús**, como se muestra en la imagen.
+
+<center>
+    ![menu](img/menu-eh.png)
+</center>
+
+En la columna izquierda donde dice Páginas, se encuentran todas las páginas creada para agregarla en el menú solo se debe seleccionar alguna de ellas y después se le da en el botón Añadir al menú para ir agregando.
+
+Teniendo agregadas las páginas que se quieren mostrar en el menú principal, se le da al botón **Guardar Menú** para guardar los cambios realizados.
+
+Para eliminar una página que no se quiere que se muestre en el menú principal, se selecciona la página que se quiere eliminar de menú, luego se le da en donde dice **eliminar** para quitarlo del menú, ya teniendo eliminada la página, seleccionar el botón **Guardar menú** para guardar los cambios realizados.
+
+De esta forma se pueden ir agregando las páginas al menú principal y también quitar algunas de ella. 
+
+- - -
+
+#7. Total cache (Se utiliza cada vez que se genera nuevos cambios en la página)
+
+En esta sección se encarga es de optimizar la página, aumentando el rendimiento del sitio web y reduciendo los tiempos de descarga a través de funciones como la integración de la red de distribución de contenido.
+
+Ahora que se debe realizar con Total cache, lo que se necesita es limpiar la cache cada vez que se realice cambios en la página sino se realiza esta opción, los de mas usuarios que revisen la página no podrán ver los nuevos cambios.
+
+Para realizar la limpieza del cache se debe dirigir al panel de control y seleccionar la opción **Rendimiento** en esta parte de la página solo se debe seleccionar el botón que dice **empty all caches** es el que sé en carga de limpiar toda la cache y de mostrar los nuevos cambios realizados en la página
+
+<center>
+    ![cache](img/cache-eh.png)
+</center>
+
+- - -
+
+#8. Calculadora Hipotecaria
+
+En la web tiene agregada una calculadora para la intermediación financiera, en cual ofrece una simulación de calculo hipotecario. 
+
+Como se muestra en la imagen, se debe llenar los 3 campos de Información del préstamo para realizar el calculo:
+
++ Cantidad del préstamo
++ Interés anual
++ Duración en años
+
+Después se le da click al botón **Calcular** y se muestra los resultado de la Información sobre pagos:
+
++ Pago por mes
++ Coste total
++ Interés total
+
+<center>
+    ![calculadora](img/calculadora-eh.png)
+</center>
+
+##Realizar cambios en la calculadora desde el código
+
+La calculadora es realizada en 2 partes:
+
+###1. Diseño web: 
+
+Para realizar cambios en los campos o agregar campos nuevos se debe dirigir al panel control y seleccionar la opción **Paginas -> Calculadora hipotecaria** se le da editar para realizar algún cambio, al momento de ingresar hay que estar muy pendiente que no se borren las funciones de los campos porque existen casos que se borran solos.
+
+<center>
+    ![calculadora-2](img/calculadora-page-eh.png)
+</center>
+
+Cuando se encuentre en la pagina de editar se le da click a la pestaña de **HTML** para ver el código y realizar los ajuste desde ahí.
+
+<center>
+    ![calculadora-3](img/calculadora-html-eh.png)
+</center>
+
+Aquí se dejara el código de la vista por si se pierde la función o no le funciona la calculadora. El error se presenta cuando se edita la calculadora y pierde la función en los Informes del préstamo que son: 
+
+En los campos **input**:
+
++ onChange="calculate()" onkeyup="format(this)"
+
+En el botón **Calcular**
+
++ onClick="calculate()"
+
+
+    <form name="loandatas">[columns][one_third]
+    <b>Información del préstamo</b>
+    <div style="margin-bottom: 5px;">Cantidad del préstamo</div>
+    <input name="principal" size="12" type="text" onChange="calculate()" onkeyup="format(this)"/>
+    <div style="margin-bottom: 5px;">Interés anual</div>
+    <input name="interest" size="12" type="text" onChange="calculate()" onkeyup="format(this)"/>
+    <div style="margin-bottom: 5px;">Duración en años</div>
+    <input name="years" size="12" type="text" onChange="calculate()" />[/one_third][one_third]
+    <input style="margin-top: 100px; margin-left: 42px; padding: 11px 36px; border: none; color: white; background-color: #ec894d; font-size: 20px;" type="button" value="Calcular" onChange="calculate()"/> [/one_third][one_third]
+    <b>Información sobre pagos</b>
+    <div style="margin-bottom: 5px;">Pago por mes</div>
+    <input disabled="disabled" name="payment" size="12" type="text" />
+    <div style="margin-bottom: 5px;">Coste total</div>
+    <input disabled="disabled" name="total" size="12" type="text" />
+    <div style="margin-bottom: 5px;">Interés total</div>
+    <input disabled="disabled" name="totalinterest" size="12" type="text" />[/one_third][/columns]
+    </form>
+
+
+###2. Código javascript para calcular los valores colocados en los campos:
+
+Para realizar cambios en el código de calculo javascript, se debe dirigir al panel control y seleccionar la opción **Custom CSS & JS -> All Custom Code** se le da editar a **calculadora-hipotecaria**. Así como se muestra en la imagen 
+
+<center>
+    ![calculadora-4](img/custom-code-eh.png)
+</center>
+
+Cuando se encuentre en la pagina de edición del código podrá realizar cualquier cambios que desee para el calculo hipotecario 
+
+<center>
+    ![calculadora-5](img/custom-code-2-eh.png)
+</center>
+
+Aquí se dejara el código del calculo por si se pierde la función o no le funciona la calculadora.
+    
+    function formats(input){
+      var num = input;
+      if(!isNaN(num)){
+        num = num.toString().split('').reverse().join('').replace(/(?=\d*\.?)(\d{3})/g,'$1.');
+        num = num.split('').reverse().join('').replace(/^[\.]/,'');
+        return num;
+      }
+    }
+
+    function formato(num){
+        var num = num.toString().replace(/\./g,'');
+        return num;
+    }
+
+    function calculate() {   
+      var principal_1 = formato(document.loandatas.principal.value);
+      var principal = principal_1.toString().replace(/,/g,'.');
+      
+      var interest_1  = formato(document.loandatas.interest.value); 
+      var interest_2  = interest_1.toString().replace(/,/g,'.'); 
+      var interest  = interest_2 / 100 / 12;
+      
+      var payments  = document.loandatas.years.value * 12;   
+      
+      var x = Math.pow(1 + interest, payments);   
+      var monthly   = (principal*x*interest)/(x-1);   
+      if (!isNaN(monthly) && (monthly != Number.POSITIVE_INFINITY) && (monthly != Number.NEAGTIVE_INFINITY)) { 
+        document.loandatas.payment.value = formats(Math.round(monthly));  
+        document.loandatas.total.value =  formats(Math.round(monthly*payments));
+        document.loandatas.totalinterest.value = formats(Math.round((monthly*payments) - principal));   
+      } else {     
+        document.loandatas.payment.value="";  
+        document.loandatas.total.value="";  
+        document.loandatas.totalinterest.value="";   
+      } 
+    } 
+
+    function round(x) {
+      return Math.round(x *100)/100;
+    } 
+
+    function format(input)
+    {
+      var num = input.value.replace(/\./g,'');
+      if(!isNaN(num)){
+        num = num.toString().split('').reverse().join('').replace(/(?=\d*\.?)(\d{3})/g,'$1.');
+        num = num.split('').reverse().join('').replace(/^[\.]/,'');
+        input.value = num;
+      }
+      //else{ alert('Solo se permiten numeros');
+        //input.value = input.value.replace(/[^\d\.]*/g,'');
+      //}
+    }
+- - -
+
+#9. Sección Solicitar valoraciones gratuitas de los Inmuebles
+
+Es una sección que permite enviar correos de solicitudes de cada cliente al administrador. Es un formulario que debe llenar el usuario con los siguientes campos:
+
++ Solicitud (es un combo que puede seleccionar 2 opciones)
++ Código postal
++ Email
++ Telefoneo
++ Mensaje
+
+## Ajuste en el formulario de solicitud
+
+Para realizar los ajuste al formulario se debe ir al panel de control y seleccionar la opción **Contacto -> Formulario de contacto -> Formulario de pedido** así como se muestra en la imagen
+
+Si quiere mas información del uso de los campos y como agregar otros tipos de campos puede revisar esta pagina http://contactform7.com/text-fields/
+<center>
+    ![solicitud-2](img/contacto-1-eh.png)
+</center>
+
+Al momento de ingresar podrá editar los campos o agregar nuevos campos al formulario, así como se muestra en la imagen
+
+<center>
+    ![solicitud-3](img/contacto-2-eh.png)
+</center>
+
+Para el campo de solicitud que es un combo para seleccionar si quiere ingresar nuevos valores se debe realizar de la siguiente forma:
+
+    // Como se encuentra ahorita
+    [select* solicitud id:solicitud include_blank "Dejar pedido de Compra-Venta y/o Alquiler" "Solicitar valoraciones gratuitas de los inmuebles"]
+
+    // Agregar nuevo valor
+    [select* solicitud id:solicitud include_blank "Dejar pedido de Compra-Venta y/o Alquiler" "Solicitar valoraciones gratuitas de los inmuebles" "Nuevo valor"]
+
+Ahora para agregar un nuevo campo de texto se debe colocar de la siguiente forma:
+
+    <div class="float-home"> // Necesario colocarlo ya que permite darle estilo a los campos
+    <div class="text-h"> // Necesario colocarlo
+    Titulo // Titulo que tendrá el campo de texto
+    </div>
+    // De esta forma se coloca los campo de texto y donde dice "nuevo-campo" es el nombre que identificara el campo. 
+    //El que dice "class:form-h" se dejara como esta ya que permite darle el estilo necesario
+    [text* nuevo-campo  class:form-h] 
+    </div>
+
+Aquí se le dejara el código completo si llega a presentarle alguna falla o errores al hacer algún nuevo cambio:
+
+    <div class="container-home">
+
+    <div class="float-home" style="margin-left: -1px;">
+    <div class="text-h">Solicitar</div>
+    [select* solicitud id:solicitud include_blank "Dejar pedido de Compra-Venta y/o Alquiler" "Solicitar valoraciones gratuitas de los inmuebles"]
+    </div>
+
+    <div class="float-home">
+    <div class="text-h">Código postal</div>
+    [text* codigo-postal id:postal class:form-h maxlength:6]
+    </div>
+
+    <div class="float-home">
+    <div class="text-h">Email</div>
+    [email* email id:email-h class:form-h]
+    </div>
+
+    <div class="float-home">
+    <div class="text-h">Telefono</div>
+    [tel tel id:telef class:form-h]
+    </div>
+
+    <div class="float-home-textarea">
+    <div class="text-h">Mensaje</div>
+    [textarea* mensaje id:mensaje-h x3]
+    </div>
+
+    <div style="float: left; padding: 10px; margin-bottom: 20px; margin-top: -20px;">
+    [submit "Enviar"]
+    </div>
+
+    </div>
+
+## También se debe agregar el nuevo campo al formulario de envió de correo, se debe seleccionar las pestañas **Correo electrónico**
+
+ <center>
+    ![solicitud-4](img/contacto-3-eh.png)
+</center>
+
+Ahora bien donde se debe colocar los nuevos campos, en donde dice **Cuerpo del mensaje** en esta parte del codigo
+
+    <p style="font-size: 14px;"><b>Solicitud:</b> [solicitud]</p> 
+    <p style="font-size: 14px;"><b>Titulo del campo:</b> [nombre-campo]</p> // De esta forma se colocara el campo
+    <p style="font-size: 14px;"><b>Código postal:</b> [codigo-postal]</p> 
+    <p style="font-size: 14px;"><b>Email:</b> [email]</p>
+    <p style="font-size: 14px;"><b>Teléfono:</b> [tel]</p>
+    <p style="font-size: 14px;"><b>Mensaje:</b></p>
+    <p style="font-size: 14px;">[mensaje]</p>
+
+Aquí se le dejara el código completo si llega a presentarle alguna falla o errores al hacer algún nuevo cambio:
+
+    <div style="background: #dedede; padding: 20px;">
+    <table style="background: #fff;" width="500px" align="center">
+    <tbody>
+    <tr>
+    <td align="center"><img src="http://estudiohenseldelavega.es/wp-content/uploads/2016/12/logo-estudio-colombia-new-min.png" alt="" width="400px"/>
+    <h2>Solicitud de valoraciones de los Inmuebles</h2>
+    </td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>
+    <div style="padding: 15px 20px 20px 20px;">
+    <p style="font-size: 14px;"><b>Solicitud:</b> [solicitud]</p> 
+    <p style="font-size: 14px;"><b>Código postal:</b> [codigo-postal]</p> 
+    <p style="font-size: 14px;"><b>Email:</b> [email]</p>
+    <p style="font-size: 14px;"><b>Teléfono:</b> [tel]</p>
+    <p style="font-size: 14px;"><b>Mensaje:</b></p>
+    <p style="font-size: 14px;">[mensaje]</p>
+    </div></td>
+    </tr>
+
+    <tr>
+    <td>
+    <div style="padding: 10px; background: #008a3e; color: #fff; font-size: 12px;"><center>Estudio Hensel de la Vega, S.L. © 2017</center></div></td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+
+</xmp>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
